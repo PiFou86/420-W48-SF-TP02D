@@ -157,7 +157,7 @@ proposer les commandes suivantes (Vous avez le droit d'utiliser la classe
 "BasicCommandInterpretor du dépôt
 https://github.com/PiFou86/420-W48-SF-Utilitaires-Demo/) :
 
-- `alarme get` : affiche les alarmes
+- `alarme get` : affiche les alarmes par ordre croissant d'heure
 - `alarme set hh:mm` : ajoute/active une alarme
 - `alarme unset hh:mm` : désactive une alarme
 - `alarme delete hh:mm` : supprime une alarme
@@ -171,7 +171,7 @@ https://github.com/PiFou86/420-W48-SF-Utilitaires-Demo/) :
 
 Un contrôle à distance propose une page web qui :
 
-- Affiche les alarmes
+- Affiche les alarmes par ordre croissant d'heure
 - Permet d'activer / désactiver une alarme
 - Permet d'ajouter/modifier des alarmes
 - Permet de supprimer des alarmes

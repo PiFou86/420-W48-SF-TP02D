@@ -176,6 +176,8 @@ Un contrôle à distance propose une page web qui :
 - Permet d'ajouter/modifier des alarmes
 - Permet de supprimer des alarmes
 
+Remarque vous devez empêcher deux alarmes à la même heure.
+
 Le site web doit utiliser les technologies et architectures suivantes :
 
 - HTML

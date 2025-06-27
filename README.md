@@ -112,7 +112,7 @@ clignotant sur l'afficheur 4 digits à la fréquence de 1 Hz.
 Une fois démarré, le réveil affiche l'heure actuelle sur l'afficheur 4 digits de
 l'ESP32. À l'appui du bouton 1, le réveil affiche la première alarme disponible.
 Pour indiquer que l'affichage du 4 digits est en mode "Affichage d'alarmes", une
-DEL jaune clignote. Si l'alarme est activée, une DEL rouge est allumée.
+DEL verte clignote. Si l'alarme est activée, une DEL rouge est allumée.
 
 À l'appui du bouton 1, le réveil affiche la prochaine alarme disponible. Une
 fois arrivé à la dernière alarme, le réveil revient à l'affichage de la première

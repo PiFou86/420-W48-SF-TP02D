@@ -100,9 +100,9 @@ ainsi que les instructions de création du fichier `config.h`.
 Durant la connexion, l'afficheur 4 digits affiche une animation de 3 images qui
 cyclent :
 
-- les 4 segments d de chaque digit s'allument
-- les 4 segments g de chaque digit s'allument
-- les 4 segments a de chaque digit s'éteignent
+- les 4 segments d de chaque digit s'allument seuls
+- les 4 segments g de chaque digit s'allument seuls
+- les 4 segments a de chaque digit s'allument seuls
 
 Si la connexion WiFi échoue ou dépasse 30 secondes, le réveil affiche 88:88
 clignotant sur l'afficheur 4 digits à la fréquence de 1 Hz.

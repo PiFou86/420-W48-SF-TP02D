@@ -194,19 +194,24 @@ Voici un exemple de l'interface web :
 ### 2.5 - Bonus
 
 - Une musique différente par alarme (Jusqu'à 5%)
-- À votre imagination mais avec de la valeur ajoutée (Jusqu'à 5%)
+- À votre imagination mais avec de la valeur ajoutée (Jusqu'à 5%) - La décrire dans le rapport
 
 ## 3 - Détail de l'évaluation
 
 ### 3.1 - Répartition des points
 
-1. Document word (18%)
+1. Document word (27%)
 
-- Contexte du projet (2%)
-- Planification, attribution des tâches (3%)
-- Description des étapes du projet (3%)
-- Diagramme de classes (5%)
-- Schéma circuit et schéma du montage (5%)
+- Page de présentation (titre, auteurs, date, standard Cégep) et structure document (1%)
+- Contexte du projet (1%)
+- Planification, attribution des tâches (2%)
+- Schéma du circuit électronique (3%)
+- Dessin de montage sur plaque de circuit 3%)
+- Diagramme de classes UML (5%)
+- Inventaire des pièces avec estimation des coûts (3%)
+- Estimation du courant utilisé par I/O et validation de la capacité du MCU (2%)
+- Estimation énergétique : durée de vie des batteries / consommation si sur secteur (2%)
+- Devis de tests manuels (5%)
 
 2. Registre des heures consacrées au projet (2%)
 
@@ -214,29 +219,39 @@ Le registre doit indiquer la répartition des tâches. Le registre doit montrer 
 
 Il doit correspondre aux données collectées dans l'historique de Git et de Teams/Sharepoint de l'équipe.
 
-3. Vidéo de 5 minutes illustrant le fonctionnement (10%)
+3. Vidéo de 5-10 minutes illustrant le fonctionnement (9%)
 
-- Présentation rapide du circuit (3%)
+- Présentation rapide du circuit (2%)
+  - Présentation du circuit
+  - Présentation du montage sur plaque de circuit
 - Présentation rapide de la structure du code et des choix de conception (4%)
+  - Déclenchement d'une alarme
+  - Gestion du rappel
+  - Serveur web
 - Présentation du fonctionnement (3%)
+  - Démarrage : Ok et erreur
+  - Interface Web
+  - Interface Série
+  - Sonnerie
+  - Rappel
 
-4. Code (70%)
+1. Code (62%)
 
 - Démarrage du programme - connexion WiFi (2%)
-- Démarrage du programme - récupération de l'heure (3%)
-- Affichage de l'heure actuelle (5%)
-- Affichage des alarmes - Plaquette (5%)
-- Activation/désactivation des alarmes - Plaquette (5%)
-- Affichage des alarmes - Interface série (5%)
-- Activation/désactivation des alarmes - Interface série (5%)
-- Affichage des alarmes - Interface web (5%)
-- Activation/désactivation des alarmes - Interface web (5%)
-- Suppression des alarmes - Interface web (5%)
-- Modification des alarmes - Interface web (5%)
-- Alarme fonctionnelle (5%)
-- Rappel/Snooze (5%)
-- Arrêt définitif de l'alarme (5%)
-- Sauvegarde des alarmes (5%)
+- Démarrage du programme - récupération de l'heure (2%)
+- Affichage de l'heure actuelle (4%)
+- Affichage des alarmes - Plaquette (4%)
+- Activation/désactivation des alarmes - Plaquette (3%)
+- Affichage des alarmes - Interface série (4%)
+- Activation/désactivation des alarmes - Interface série (3%)
+- Affichage des alarmes - Interface web (4%)
+- Activation/désactivation des alarmes - Interface web (4%)
+- Suppression des alarmes - Interface web (3%)
+- Modification des alarmes - Interface web (3%)
+- Alarme fonctionnelle (4%)
+- Rappel/Snooze (4%)
+- Arrêt définitif de l'alarme (4%)
+- Sauvegarde des alarmes (4%)
 
 5. Bonus: mise en oeuvre de choix de musiques différentes par l'alarme (Jusqu'à 5%)
 

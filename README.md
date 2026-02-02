@@ -6,17 +6,19 @@
 
 - Remise du travail : mercredi 11 février 2026, 23:59
 - Ce travail est réalisé en équipe de 2 membres et seuls les membres de cette équipe y contribuent
+- Vous devez utiliser votre dépôt Git pour faire votre travail : si une situation particulière est détectée, vos commits moduleront votre note dans le groupe
+- Il en va de même pour le fichier Word contenant le rapport final du TP. Il doit être édité en collaboration via Sharepoint/Teams pour que l'historique des modifications puisse être consulté.
 - Toutes les réponses fournies doivent être originales (produites par l’étudiant ou un membre de l’équipe)
 - Toute copie de code, de portion de code, d’algorithme ou de texte doit faire mention de sa source
 - L’emprunt ou la copie de code ou de portions de code est interdite
+- L'utilisation de l'IA est considérée comme du plagiat si non documentée en tant que source
+- Tout code copié mais documenté comme provenant d'une autre source sera noté à 0 mais ne sera pas considéré comme du plagiat
 - Tout constat de plagiat, tricherie ou fraude sera automatiquement déclaré à la Direction et les sanctions prévues seront appliquées
-- Vous devez utiliser votre dépôt Git pour faire votre travail : si une situation particulière est détectée, vos commits moduleront votre note dans le groupe.
-- Vous devez utiliser SharePoint pour gérer votre document de rapport (Onglet "Fichiers" de votre équipe Teams)
-- La remise du travail doit être effectuée sur et à la date indiquée sur la plateforme d'enseignement Léa
 
 ### 1.2 - À remettre sur la plateforme d'enseignement Léa
 
-- Un document Word contenant le détail du projet
+- Un document word contenant le détail du projet. Ce document doit être édité en collaboration via Sharepoint/Teams. Le document de base doit être celui déjà contenu dans votre canal Teams/Sharepoint nommé `Dossier_TP02.docx`. Une pénalité de 10 points sera appliquée si ce n'est pas respecté.
+- Le registre des heures consacrées au projet, inclus dans le document word (avec les totaux par participant)
 - Votre code source C++ avec la structure de PlatformIO
 - Vous devez fournir le lien d'une vidéo de 5 minutes illustrant le circuit, le code et le fonctionnement :
   - La vidéo doit être déposée sur YouTube
@@ -26,12 +28,11 @@
 
 ### 1.3 - Structure de la remise
 
-- **Vous devez remplir le fichier** `AUTHORS.md`. Il donne le nom et matricule des équipiers
-- Votre code source doit être dans le répertoire `src` du présent dépôt Git
+- Vous devez remplir le fichier "AUTHORS.md" qui donne le nom et matricule des équipiers
+- Votre code source doit être dans le répertoire  ```src``` du présent dépôt Git
 - Le répertoire source doit suivre la structure d’un projet PlatformIO
-- Le lien de la vidéo doit être présent dans le document word et dans le fichier `AUTHORS.md` de votre dépôt Git
-- La vidéo doit être déposée sur YouTube avec une option de partage « non listée »
-- Le répertoire "documents" doit contenir votre rapport de TP
+- Le lien de la vidéo doit être indiqué dans le document word et dans le fichier "AUTHORS.md"
+- Le répertoire ```documents``` doit contenir votre rapport final de TP
 
 ### 1.4 - Évaluation
 
@@ -195,7 +196,9 @@ Voici un exemple de l'interface web :
 - Une musique différente par alarme (Jusqu'à 5%)
 - À votre imagination mais avec de la valeur ajoutée (Jusqu'à 5%)
 
-## 3 - Répartition des points
+## 3 - Détail de l'évaluation
+
+### 3.1 - Répartition des points
 
 1. Document word (18%)
 
@@ -238,3 +241,94 @@ Il doit correspondre aux données collectées dans l'historique de Git et de Tea
 5. Bonus: mise en oeuvre de choix de musiques différentes par l'alarme (Jusqu'à 5%)
 
 6. Bonus: mise en oeuvre d'une fonction supplémentaire originale (Jusqu'à 5%)
+
+### 3.2 - Critères appliqués durant l'évaluation
+
+L'évaluation du travail est effectuée par le(s) enseignant(s) de l'UE en se basant sur :
+
+- L'historique de Git et de Teams/Sharepoint font office de référence pour évaluer la proportion du travail effectué par chaque équipier
+
+- La qualité et le contenu du code source :
+
+  - Conformité du code et des normes d'écriture utilisées dans le cours
+  - Respect des bonnes pratiques de programmation
+  - Fonctionnalité du code (tous les modes fonctionnent correctement)
+  - Facilité de lecture du code (noms explicites, structure claire du code et des fichiers)
+  - Modularité et utilisation adéquate de la POO (classes, encapsulation, héritage si approprié)
+  - Qualité du modèle objet (responsabilités claires, couplage faible)
+  - Paramétrisation du code (constantes pour les temps, pins, seuils)
+  - Utilisation de constantes (pas de nombres magiques)
+  - Gestion appropriée de la mémoire (pas de fuites, optimisation pour Arduino)
+  - Bonne utilisation des contraintes matérielles
+  - Bonne utilisation des bibliothèques (PlatformIO, Arduino)
+  - Gestion des états et transitions
+  - Robustesse du code (gestion des cas limites)
+
+- La qualité et le contenu du document word :
+  
+  - Qualité du français (orthographe, grammaire, syntaxe, vocabulaire technique)
+  - Schéma électrique (clarté, précision, légende, respect des normes)
+  - Diagramme de classes UML (complétude, clarté, respect de la notation UML)
+  - Clarté et précision des explications techniques
+  - Explication détaillée de la gestion des modes et transitions
+  - Explication de la méthode de persistance des données
+  - Explication de la méthode d'affichage des statistiques
+  - Analyse des limites du système
+  - Mise en page professionnelle (structure, hiérarchie, lisibilité)
+  - Page de présentation complète (titre, auteurs, date, contexte)
+
+- La qualité et le contenu de la présentation vidéo :
+
+  - Qualité de l'image (résolution, stabilité, cadrage)
+  - Qualité audio (clarté, volume, absence de bruits parasites)
+  - Clarté des explications orales (français correct, débit adapté, vocabulaire technique)
+  - Démonstration complète des trois modes (régulier, urgence, entretien)
+  - Démonstration du cycle piéton avec appel
+  - Démonstration des statistiques (affichage et réinitialisation)
+  - Respect de la durée (~5 minutes, 10 minutes maximum)
+
+- Participation au code : la participation est évaluée en utilisant GitInspector. Chaque étudiant doit être au dessus de 45% de participation ou verra sa note ajustée. Les codes faits en classe lors des exercices sont enlevés des statistiques pour ne pas pénaliser le partenaire qui ne met pas son ancien code. (Ex. Bouton.\[h|cpp], DEL.\[h|cpp], etc.)
+- L'évaluation tient compte :
+  - du style et de la structure du code : elle doit être similaire à celle proposée en cours
+  - des pratiques de programmation apprises dans le programme doivent être appliquées
+  - de la participation de chaque coéquipier avec la formule suivante : $ Min(100, note*50% + note*Min(50%, %participation))$, soit 50% de la note globale + %participation plafonné à 50% de la note globale. (Ex. note globale 110% et participation 50/50 : donne 100% à chaque personne, note globale 90 et participation 70/30 note : 90 et 72)
+  - la participation est évaluée par les commits sur Git. Si une manipulation de l'historique est détectée, l'équipe sera pénalisée avec une participation maximale de 40% par partenaire. (Venir voir l'enseignant dès que détecté avant de tomber sur un problème au moment de la correction !). Actuellement, GitInspector est utilisé pour évaluer cette participation
+
+Tout partage de code, d'explications, de bouts de texte, etc. est considéré comme du plagiat. Pour plus de détails, consultez le site (et ses vidéos) [Sois intègre du Cégep de Sainte-Foy](http://csfoy.ca/soisintegre) ainsi que [l'article 6.1.12 de la PÉA](https://www.csfoy.ca/fileadmin/documents/notre_cegep/politiques_et_reglements/5.9_PolitiqueEvaluationApprentissages_2019.pdf)
+
+Si vous utilisez un code donné en cours, n'oubliez pas de référencer son origine dans votre code.
+
+## 4 - Matériel dans l’inventaire de l’entreprise
+
+Le budget se limite au matériel. Le temps alloué et le temps de montage sur plaque de circuit est exclus. Tous les prix sont fictifs.
+
+Ajoutez des éléments et des prix au besoin (prix fictifs)
+
+| Composant | Description | Nombre / lot | Prix ($ CAD)(*) |
+| --- | --- | --- | --- |
+| Arduino UNO | Microcontrôleur | 1 | 25,00 $ |
+| DEL rouge 5mm | Haute luminosité | 1 | 0,10 $ |
+| DEL jaune 5mm | Haute luminosité | 1 | 0,10 $ |
+| DEL verte 5mm | Haute luminosité | 1 | 0,10 $ |
+| Bouton poussoir | Normalement ouvert, momentané | 1 | 0,50 $ |
+| Potentiomètre | 10 kΩ, rotatif | 1 | 0,75 $ |
+| Résistance ¼ W | Jusqu’à 999 Ω | 4 | 0,15 $ |
+| Résistance ¼ W | > 999 Ω | 4 | 0,35 $ |
+| Fils cavaliers | Longueur/couleur variées | 4 | 0,05 $ |
+| Natte Dupont | Mâle-Mâle | 4 | 0,15 $ |
+| Natte Dupont | Mâle-Femelle | 4 | 0,15 $ |
+| Natte Dupont | Femelle-Femelle | 4 | 0,15 $ |
+| Plaquette pour soudure | Fabriquée selon schéma fourni | 1 | 5,00 $ |
+| Afficheur Volt/Ampère | 0-99 V /0-2 A | 1 | 15,00$ |
+| Alimentation 9V | Adaptateur secteur 1A | 1 | 5,00 $ |
+
+(*) Tableau fictif, à des fins pédagogiques seulement
+
+## 5 - Références
+
+Il est conseillé d'utiliser les bibliothèques du cours suivantes :
+
+- [Utilify](https://registry.platformio.org/libraries/sirdrako/Utilify) : Bibliothèque utilitaire pour Arduino et PlatformIO
+- [UtilifyDigitalInput](https://registry.platformio.org/libraries/sirdrako/UtilifyDigitalInput) : Gestion des entrées numériques avec anti-rebond
+- [UtilifyLogger](https://registry.platformio.org/libraries/sirdrako/UtilifyLogger) : Journalisation des événements pour Arduino
+- [UtilifyAnalogInput](https://registry.platformio.org/libraries/sirdrako/UtilifyAnalogInput) : Gestion des entrées analogiques avec filtrage (Joystick, potentiomètre, etc.)

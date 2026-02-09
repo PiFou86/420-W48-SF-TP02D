@@ -289,7 +289,6 @@ L'évaluation du travail est effectuée par le(s) enseignant(s) de l'UE en se ba
   - Clarté et précision des explications techniques
   - Explication détaillée de la gestion des modes et transitions
   - Explication de la méthode de persistance des données
-  - Explication de la méthode d'affichage des statistiques
   - Analyse des limites du système
   - Mise en page professionnelle (structure, hiérarchie, lisibilité)
   - Page de présentation complète (titre, auteurs, date, contexte)
@@ -299,9 +298,7 @@ L'évaluation du travail est effectuée par le(s) enseignant(s) de l'UE en se ba
   - Qualité de l'image (résolution, stabilité, cadrage)
   - Qualité audio (clarté, volume, absence de bruits parasites)
   - Clarté des explications orales (français correct, débit adapté, vocabulaire technique)
-  - Démonstration complète des trois modes (régulier, urgence, entretien)
-  - Démonstration du cycle piéton avec appel
-  - Démonstration des statistiques (affichage et réinitialisation)
+  - Démonstration complète (Connexion, heure, alarmes, web, ligne commande)
   - Respect de la durée (~5 minutes, 10 minutes maximum)
 
 - Participation au code : la participation est évaluée en utilisant GitInspector. Chaque étudiant doit être au dessus de 45% de participation ou verra sa note ajustée. Les codes faits en classe lors des exercices sont enlevés des statistiques pour ne pas pénaliser le partenaire qui ne met pas son ancien code. (Ex. Bouton.\[h|cpp], DEL.\[h|cpp], etc.)
